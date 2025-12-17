@@ -145,7 +145,6 @@ class RemoteSensingResolutionDataset(BaseDataset):
         # print(f"Resolution labels shape: {resolution_labels.shape}")
         # print("=" * 50)
 
-        # 9. 返回数据
         return {
             'images': concatenated_images,  # [9, H, W] 拼接后的图像
             'labels': resolution_labels,  # [3] 对应的分辨率标签
@@ -192,5 +191,6 @@ def test_distribution_uniformity():
     plt.show()
 
     print("Distribution test completed. Check 'resolution_distribution.png' for results.")
+
 
 # test_distribution_uniformity()
