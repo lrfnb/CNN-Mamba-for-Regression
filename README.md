@@ -6,9 +6,6 @@ I have trained and tested the codes on
 - CUDA 11.8  
 - Python 3.8
 
-### Pretrained models and test results
-The **pretrained models** and **test results** are being reorganized.
-
 ### Train the Model
 
 ```
