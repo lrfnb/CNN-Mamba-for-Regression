@@ -1,4 +1,4 @@
-## CMCNet: Enhancing Face Image Super-Resolution through CNN-Mamba Collaboration
+## CNN-Mamba-for-Regression
 
 ## Installation and Requirements 
 I have trained and tested the codes on
