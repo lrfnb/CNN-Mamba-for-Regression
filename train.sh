@@ -1,5 +1,3 @@
 # Train Code
-python train.py --gpus 1 --name cmcnet --model CMCNET \
-    --Gnorm "bn" --lr 0.0002 --beta1 0.9 --scale_factor 8 --load_size 128 \
-    --dataroot /datasets/CelebA --dataset_name celeba --batch_size 10 --total_epochs 20 \
-    --visual_freq 20 --print_freq 50 --save_latest_freq 1000
+# Train Code
+python train.py --gpus 1 --name ResolutionRegression --model resolutionregressionnet --Gnorm "bn" --lr 0.0001 --beta1 0.9 --load_size 128  --dataroot /data2/lrf/data/spatial-resolution_0.1m/train_mix --dataset_name remotesensingresolution --batch_size 12 --total_epochs 100 --visual_freq 20 --print_freq 50 --save_latest_freq 1000
